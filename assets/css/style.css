@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+:root {
+    /* font-size */
+    --fs-xs: 12px;
+    --fs-xsm: 14px;
+    --fs-s: 16px;
+    --fs-sm: 20px;
+    --fs-m: 35px;
+    --fs-md: 40px;
+    --fs-lg: 50px;
+    /* colors */
+    --bg-green: #9ACC44;
+    --bs-white: #fff;
+    --bs-greyshadow: #FFFFFF99;
+    --bs-darkgreen: #5BA72B;
+    --bs-lightgreen: #A4D156;
+    /* font-family */
+    --ff-BalsamiqSan: 'Balsamiq Sans';
+}
+
+.fs-16 {
+    font-size: var(--fs-xs);
+}
+
+.fs-18 {
+    font-size: var(--fs-xsm);
+}
+
+.fs-24 {
+    font-size: var(--fs-s);
+}
+
+.fs-28 {
+    font-size: var(--fs-sm);
+}
+
+.fs-50 {
+    font-size: var(--fs-m);
+}
+
+.fs-60 {
+    font-size: var(--fs-md);
+}
+
+.fs-70 {
+    font-size: var(--fs-lg);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bs-white {
+    color: var(--bs-white);
+}
+
+.lh-103 {
+    line-height: 103.164%;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+.my-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ff-CherryBombOne {
+    font-family: 'Cherry Bomb One';
+}
+
+.ff-BalsamiqSan {
+    font-family: var(--ff-BalsamiqSan)
+}
+
+.road {
+    text-shadow: 1px 4px var(--bs-darkgreen);
+}
+
+.list1 {
+    list-style-type: lower-alpha;
+}
+
+.opcity30 {
+    opacity: 30%;
+}
+
+.opacity-80 {
+    opacity: 80%;
+}
+
+.card1 {
+    border: 1px solid var(--bs-greyshadow);
+    background: var(--bs-lightgreen);
+    border-radius: 10px;
+    padding: 20px 38px 20px 20px;
+    transition: all 300ms linear;
+}
+
+.card1:hover {
+    background: var(--bs-darkgreen);
+}
+
+.card1:hover svg path {
+    opacity: 1;
+}
+
+.card2 {
+    border: 1px solid var(--bs-greyshadow);
+    background: var(--bs-lightgreen);
+    border-radius: 10px;
+    padding: 20px 38px 20px 20px;
+    transition: all 300ms linear;
+}
+
+.card2:hover {
+    background: var(--bs-darkgreen);
+}
+
+.card2:hover svg path {
+    opacity: 1;
+}
+
+.card3 {
+    border: 1px solid var(--bs-greyshadow);
+    background: var(--bs-lightgreen);
+    border-radius: 10px;
+    padding: 20px 49px 20px 20px;
+    transition: all 300ms linear;
+}
+
+.card3:hover {
+    background: var(--bs-darkgreen);
+}
+
+.card3:hover svg path {
+    opacity: 1;
+}
+
+.bcard {
+    background: linear-gradient(0deg, #5BA72B, #5BA72B),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 7px solid var(--bs-white);
+    border-radius: 19px;
+    padding: 15px 5px;
+}
+
+.mb-21 {
+    margin-bottom: 21px;
+}
+
+.max-w655 {
+    max-width: 655px;
+}
+
+.pt100 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb180 {
+    padding-bottom: 40px;
+}
+
+.pt-92 {
+    padding-top: 32px;
+}
+
+.tree {
+    position: absolute;
+    bottom: -8px;
+    left: -10%;
+}
+
+.tree2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ellipse1 {
+    position: absolute;
+    right: -8%;
+    top: 7%;
+}
+
+.ellipse2 {
+    position: absolute;
+    left: -96px;
+    top: 11%;
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs-xs: 16px;
+        --fs-xsm: 18px;
+        --fs-s: 24px;
+        --fs-sm: 28px;
+        --fs-m: 50px;
+        --fs-md: 60px;
+        --fs-lg: 70px;
+    }
+
+    .bcard {
+        padding: 75px 65px;
+    }
+
+    .pb180 {
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width:992px) {
+    .card1 {
+        padding: 20px 69px 20px 20px;
+    }
+
+    .pt100 {
+        padding-top: 100px;
+    }
+
+    .pb180 {
+        padding-bottom: 180px;
+    }
+
+    .pt-92 {
+        padding-top: 92px;
+    }
+}
